@@ -1,0 +1,34 @@
+.headerInput {
+  border: 1px solid;
+  color: Red;
+  width: 100%;
+  height:100px;
+}
+
+.sourceFileInput{
+  position: absolute;
+  margin-left:10px;
+  margin-top: 3%;
+}
+
+.compareFileInput{
+  position: absolute;
+  right: 0;
+  margin-top: 3%;
+}
+
+.sourceLabelClass{
+  position: absolute;
+  margin-left: 10px;
+}
+
+.CompareLabelClass{
+  position: absolute;
+  margin-right: 165px;
+  right: 0;
+}
+
+.compareButton{
+  position: absolute;
+  margin-top: 8%;
+}

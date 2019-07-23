@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <link rel = "stylesheet" href = "./style.css" />
+  </head>
+  <body>
+    <h1>Compare App</h1>
+    <div class="headerInput">
+      <div>
+          <label class="sourceLabelClass">Upload File</label>
+          <input class="sourceFileInput" type="file" id="inputSourceFile" />
+      </div>
+      <div>
+          <label class="CompareLabelClass">Compare File</label>
+          <input class="compareFileInput" type="file" id="inputCompareFile" />
+      </div>
+      <<button type="button" class="compareButton" onclick="compare()" name="button">Compare</button>
+    </div>
+  </body>
+  <script type="text/javascript" src = "./compare.js"></script>
+  <script type="text/javascript" src = "./diff_match_patch_uncompressed.js"></script>
+  <script type="text/javascript" src = "./diff_match_patch.js"></script>
+</html>

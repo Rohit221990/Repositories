@@ -1,0 +1,24 @@
+{
+  "name": "compareapp",
+  "version": "1.0.0",
+  "description": "compare the files",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "keywords": [
+    "comparefile"
+  ],
+  "author": "Rohit Jangid",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^5.0.5"
+  },
+  "dependencies": {
+    "pdf-diff": "^0.1.0",
+    "pdf-parse": "^1.1.1",
+    "pdfkit": "^0.10.0",
+    "pdfreader": "^1.0.4"
+  }
+}
